@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones</title>
+    <style>
+        body {
+            animation: colores 2s infinite;
+        }
+
+        @keyframes colores {
+            0% {
+                background-color: red;
+            }
+
+            25% {
+                background-color: yellow;
+            }
+
+            50% {
+                background-color: green;
+            }
+
+            100% {
+                background-color: blue;
+            }
+        }
+
+        .cuadroBlanco {
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            position: absolute;
+            animation: mover 2s infinite;
+        }
+
+        @keyframes mover {
+            from {
+                top: 0px;
+            }
+
+            to {
+                top: 200px;
+            }
+        }
+
+        #cuadroBlanco2 {
+            left: 500px;
+            top: 200px;
+        }
+
+        #cuadroBlanco3 {
+            left: 1000px;
+            top: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cuadroBlanco"></div>
+    <div class="cuadroBlanco" id="cuadroBlanco2"></div>
+    <div class="cuadroBlanco" id="cuadroBlanco3"></div>
+</body>
+</html>
