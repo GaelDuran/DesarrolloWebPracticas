@@ -1,0 +1,30 @@
+/* Estilos CSS para personalización */
+body {
+    background-color: #f8f9fa; /* Un color de fondo suave */
+    padding-top: 20px; /* Espacio superior para que no esté pegado al borde superior */
+}
+
+.container {
+    max-width: 800px; /* Limitamos el ancho del contenido para que no sea demasiado ancho en pantallas grandes */
+    margin: auto; /* Centramos el contenido horizontalmente */
+}
+
+h1 {
+    color: #007bff; /* Color azul brillante para el encabezado */
+}
+
+ul {
+    margin-top: 20px; /* Espacio superior entre los elementos de la lista y otros elementos */
+}
+
+.img-container {
+    display: inline-block; /* Hacemos que los contenedores de las imágenes se muestren en línea */
+    margin-right: 10px; /* Espacio entre las imágenes */
+}
+
+.img-container img {
+    max-width: 100px; /* Tamaño máximo de las imágenes */
+    height: auto; /* Mantenemos la proporción de aspecto de las imágenes */
+    display: block; /* Aseguramos que las imágenes no tengan margen inferior */
+    margin-bottom: 10px; /* Espacio inferior entre las imágenes */
+}
