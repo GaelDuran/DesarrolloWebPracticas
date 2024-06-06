@@ -1,7 +1,7 @@
 let listaProductos = document.querySelector('#listaProductos');
 let listaCategorias = document.querySelector('#listaCategorias');
 let carrito = [];
-const URLPRODUCTOS = "https://fakestoreapi.com/products";
+const URLPRODUCTOS = "http://localhost:3000/productos/";
 const URLCATEGORIAS = "https://fakestoreapi.com/products/categories";
 
 // Fetch de productos
